@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA2111026010120</title> 
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JSON Input and API Call</h1>
+        <textarea id="jsonInput" placeholder="Enter valid JSON here"></textarea>
+        <button id="submitBtn">Submit</button>
+        <div id="error" class="error"></div>
+        
+        <select id="multiSelect" class="hidden" multiple>
+            <option value="alphabets">Alphabets</option>
+            <option value="numbers">Numbers</option>
+            <option value="highestLowercase">Highest Lowercase Alphabet</option>
+        </select>
+
+        <div id="response"></div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
